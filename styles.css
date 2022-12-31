@@ -1,0 +1,129 @@
+body {
+  display: block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#title {
+  color: rgba(42, 31, 2, 0.869);
+  font-size: 3rem;
+  font-family:Arial, sans-serif;
+ 
+ 
+}
+
+img
+{
+    clip-path: circle();
+}
+
+#mylogo {
+  width: 17%;
+  clip-path: none;
+}
+
+img#mylogo2 {
+  width: 32%;
+  clip-path: none;
+}
+
+.mainhead {
+  height: 400px;
+  width: 700px;
+  font-size: 500px;
+}
+.btn {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+}
+button {
+  color: black;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  padding: 0.6rem 3rem;
+}
+#data {
+  width: 99%;
+  height: 450px;
+  text-align: right;
+  justify-content: center;
+  display: flex;
+}
+.table {
+  width: 800px;
+}
+table {
+  color: rgb(236, 231, 228);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 700;
+}
+
+.welcome {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  color: #ffffff;
+  padding-top: 120px;
+}
+
+.p {
+  color: aliceblue;
+}
+
+.footer
+{
+  background-color: white;
+  padding: 1.2rem;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.love {
+  font-size: 1.2rem;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socialmedia i {
+  font-size: 1.6rem;
+}
+
+#github {
+  color: black;
+}
+
+
+#linkedin {
+  color: #023e8a;
+}
+
+#section2
+{
+    text-align: center;
+}

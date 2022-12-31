@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGM Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img id="mylogo" src="lgmLogo.png" alt="">
+        <h1 id="title"> <bold>LGM VIP MEMBERS</bold></h1>
+        <button id="getdata" onclick="getData()">Get User</button>
+    </div>
+        <div id="data">
+            <div class="table">
+                <table width="100%" height="490px" text-color="black">
+                    <tr align="center"> 
+                        <td><img src="" id="p1img"></td>
+                        <td><img src="" id="p2img"></td>
+                        <td><img src="" id="p3img"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" id="name1"></td>
+                        <td align="center" id="name2"></td>
+                        <td align="center" id="name3"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" id="mail1"></td>
+                        <td align="center" id="mail2"></td>
+                        <td align="center" id="mail3"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="" id="p4img"></td>
+                        <td><img src="" id="p5img"></td>
+                        <td><img src="" id="p6img"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" id="name4"></td>
+                        <td align="center" id="name5"></td>
+                        <td align="center" id="name6"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" id="mail4"></td>
+                        <td align="center" id="mail5"></td>
+                        <td align="center" id="mail6"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="welcome">
+        <marquee width="100%" direction="right" height="100px">
+            <h1>WELCOME TO THE LETSGROWMORE ...</h1>
+        </marquee>
+    </div>
+    <!-- Copyright -->
+    <div class="footer">
+        <div id="section1">
+            
+            <div class="developer">
+                <p class="love" text-align="center">Made by <b>Abhishek Singh</b></p>
+                <div class="socialmedia">
+                    <a href="https://github.com/AbhiShek-Singh512"><i id="github" class="fa-brands fa-github"></i></a><br>
+                    <a href="https://www.linkedin.com/in/pinaki-sankar-ray-9b6530222/"><i id="linkedin" class="fa-brands fa-linkedin"></i></a><br>
+               
+                </div>
+            </div>
+        </div>
+
+        <div id="section2">
+            <p>© <span id="mydate">date</span> VIPMEMBERS PVT. LTD. </p>
+        </div>
+    </div>
+    <script src="Api.js">
+    </script>
+</body>
+
+</html>
